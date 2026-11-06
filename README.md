@@ -18,8 +18,8 @@ cross-cutting problem belongs in.
 
 Each issue template asks which project it's about:
 
-- **giolt** — the core platform / dashboard
-- **giolt_sdk** — the Gleam SDK for integrating with Giolt
+- **giolt** — the core platform
+- **cli** — the Gleam CLI for building with Giolt
 - **glowvm** — the BEAM/Erlang runtime
 - **docs** — documentation
 
@@ -30,7 +30,7 @@ triage will sort it out.
 
 1. **Search first**, including closed issues — it may already be reported
    or fixed.
-2. **Check the docs** in case the behavior is expected or already
+2. **Check the [docs](https://docs.giolt.com)** in case the behavior is expected or already
    documented.
 3. If you're reporting a deploy or runtime problem, grab the relevant
    deploy ID or logs — it saves a round trip.
