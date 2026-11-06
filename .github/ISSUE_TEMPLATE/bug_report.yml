@@ -8,8 +8,8 @@ body:
       label: Project
       description: Which project is this about?
       options:
-        - giolt
-        - giolt_sdk
+        - dashboard/api
+        - cli
         - glowvm
         - docs
     validations:
@@ -45,7 +45,7 @@ body:
     id: version
     attributes:
       label: Version / commit
-      placeholder: e.g. giolt_sdk v0.3.1, or commit hash
+      placeholder: e.g. giolt v0.4.1, or commit hash
     validations:
       required: false
 

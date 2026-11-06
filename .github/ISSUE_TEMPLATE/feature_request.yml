@@ -8,8 +8,8 @@ body:
       label: Project
       description: Which project is this about?
       options:
-        - giolt
-        - giolt_sdk
+        - dashboard/api
+        - cli
         - glowvm
         - docs
     validations:

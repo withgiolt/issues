@@ -18,7 +18,7 @@ cross-cutting problem belongs in.
 
 Each issue template asks which project it's about:
 
-- **giolt** — the core platform
+- **dashboard/api** — the core platform
 - **cli** — the Gleam CLI for building with Giolt
 - **glowvm** — the BEAM/Erlang runtime
 - **docs** — documentation
